@@ -1,3 +1,3 @@
 # .dotfiles
 
-TODO
+https://www.jakewiesler.com/blog/managing-dotfiles
