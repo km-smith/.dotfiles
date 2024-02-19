@@ -1,5 +1,7 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+mkdir -p ~/.local
 
 brew install stow
 brew install zsh-syntax-highlighting
@@ -14,9 +16,9 @@ brew install lazygit
 brew install gdu
 brew install bottom
 
-n lts
-
 stow zsh
+stow nvim
 stow idea
 
+n lts
 
