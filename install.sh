@@ -5,6 +5,7 @@ brew install stow
 brew install zsh-syntax-highlighting
 brew install n
 brew install gh
+brew install zoxide
 
 # nvim
 brew install neovim
