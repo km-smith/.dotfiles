@@ -76,6 +76,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+eval "$(zoxide init --cmd cd zsh)"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH="$HOME/.local/bin:$PATH"
 
