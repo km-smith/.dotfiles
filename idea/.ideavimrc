@@ -44,3 +44,5 @@ map <C-L> <C-W>l
 map <C-H> <C-W>h
 map <leader>ff <Action>(GotoFile)
 map <leader>fw <Action>(FindInPath)
+map <leader>bl <Action>(MoveTabRight)
+map <leader>bh <Action>(MoveTabLeft)
