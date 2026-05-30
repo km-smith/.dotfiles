@@ -181,7 +181,7 @@ ensure_local_dir
 clone_astronvim
 
 section "Homebrew packages"
-for pkg in stow zsh-syntax-highlighting n gh zoxide; do
+for pkg in stow zsh-syntax-highlighting n gh zoxide terminal-notifier; do
   brew_install "$pkg"
 done
 
@@ -191,7 +191,7 @@ for pkg in neovim tree-sitter ripgrep lazygit gdu bottom; do
 done
 
 section "Linking dotfiles"
-for pkg in zsh nvim idea vscode; do
+for pkg in zsh nvim idea vscode pi; do
   stow_package "$pkg"
 done
 

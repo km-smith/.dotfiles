@@ -10,6 +10,7 @@ Personal macOS dotfiles, managed with [GNU Stow](https://www.gnu.org/software/st
 | `nvim`   | `~/.config/nvim/lua/user/...` (overlays AstroNvim)   |
 | `idea`   | `~/.ideavimrc`                                       |
 | `vscode` | `~/Library/Application Support/Code/User/...`        |
+| `pi`     | `~/.pi/agent/extensions/...`                         |
 
 ## Install
 
